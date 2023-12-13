@@ -1,0 +1,19 @@
+h1{
+    color :aqua;
+}
+
+#divi{
+    background-color: yellow;
+}
+
+div{
+
+    background-color: red;
+    color : blue;
+
+}
+
+.dive {
+    background-color: orange;
+    font-size: large;
+}
