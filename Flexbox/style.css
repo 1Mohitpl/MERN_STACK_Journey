@@ -1,0 +1,39 @@
+#container{
+
+    height: 500px;
+    border: 2px solid gold;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+
+    
+
+}
+
+#box{
+
+    border: 1px solid brown;
+    background-color: aqua;
+    /* flex-grow: 3; */
+}
+
+.Box-1{
+
+    order: 4;
+    flex-grow: 1;
+  
+}
+
+.Box-2{
+    order: 6;
+}
+
+.Box-3{
+    order: 5;
+}
