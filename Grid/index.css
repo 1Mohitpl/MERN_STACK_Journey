@@ -5,33 +5,40 @@
   position :absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: whitesmoke;
-  
+
 }
 
 .container{
 
     height: 100vh;
     width: 100%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     display: flex;
-    position: relative;
     justify-content: center;
+   align-items: center;
+
+}
+
+.box{
+
+    height: 400px;
+    width: 600px;
+    background-color: #ffff;
+    border-radius: 15px;
+    display: flex;
     align-items: center;
-    grid-template-columns: auto;
+    gap: 30px;
+   
     
-
-}
-.box1 img{
-     height: 40vh;
-     width: 100%;  
-    border-color: black;
-    border-radius: 10px;
-}
-.box2{
-    height: 40vh;
-    width: 20%;
-    border-color: black;
-    border-radius: 10px;
-    background-color: wheat;
 }
 
+.box img {
+
+    height: 100%;
+    width: 58%;
+    border-width: 20px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   
+
+}
